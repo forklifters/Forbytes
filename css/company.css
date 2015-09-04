@@ -10,7 +10,7 @@
 .company section.our-team .content {
   height: 580px;
   background: url(../img/app/company/team.jpg);
-  background-color: white;
+  background-color: #fff;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -64,7 +64,7 @@
 .company section.location article {
   font-family: Questrial;
   line-height: 1.6;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 4em;

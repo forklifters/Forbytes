@@ -12,11 +12,10 @@
   max-width: 400px;
   margin: 0 auto;
   position: relative;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   margin-bottom: 2em;
   border-radius: 4px;
   /*cursor: pointer;*/
-
 }
 .clients section.our-clients article .company-logo {
   position: relative;
@@ -41,9 +40,6 @@
 }
 .clients section.our-clients article.lekmer .company-logo {
   top: -10px;
-}
-.clients section.our-clients article.trademax .company-logo {
-  right: -10px;
 }
 .clients section.our-clients article.stayhard .company-logo {
   right: 0;
