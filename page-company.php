@@ -141,7 +141,7 @@
                                     <h2>Development center</h2>
                                     <div>Ukraine</div>
                                     <div>Lviv, Heroiv UPA 77</div>
-                                    <div>+3 (0) 32 232 97 70</div>
+                                    <div>+38 (0) 32 232 97 70</div>
                                     <a href="mailto:contact@forbytes.com">contact@forbytes.com</a>
                                 </div>
                                 <div class="map"></div>
