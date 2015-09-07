@@ -14,6 +14,14 @@ module.exports = function (grunt) {
                 destCss: 'css/commonsprite.css',
                 padding: 2
             },
+            services: {
+                src: 'img/app/services/forsprite/*.png',
+                retinaSrcFilter: 'img/app/services/forsprite/*-2x.png',
+                retinaDest: 'css/servicessprite-2x.png',
+                dest: 'css/servicessprite.png',
+                destCss: 'css/servicessprite.css',
+                padding: 2
+            },
             clients: {
                 src: 'img/app/clients/forsprite/*.png',
                 retinaSrcFilter: 'img/app/clients/forsprite/*-2x.png',

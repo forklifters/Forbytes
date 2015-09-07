@@ -2,58 +2,64 @@
 Icon classes can be used entirely standalone. They are named after their original file names.
 
 ```html
-<!-- `display: block` servicessprite -->
+<!-- `display: block` sprite -->
 <div class="icon-home"></div>
 
-<!-- `display: inline-block` servicessprite -->
+<!-- `display: inline-block` sprite -->
 <img class="icon-home" />
 ```
 */
 .icon-analyze {
   background-image: url(servicessprite.png);
-  background-position: -252px -196px;
+  background-position: -194px -198px;
   width: 31px;
   height: 34px;
 }
 .icon-arrowdown {
   background-image: url(servicessprite.png);
-  background-position: -242px -179px;
+  background-position: -174px -183px;
   width: 19px;
   height: 12px;
 }
 .icon-clients {
   background-image: url(servicessprite.png);
-  background-position: -118px -196px;
+  background-position: -88px -198px;
   width: 34px;
   height: 34px;
 }
 .icon-companies {
   background-image: url(servicessprite.png);
-  background-position: 0px -196px;
+  background-position: 0px -198px;
   width: 42px;
+  height: 34px;
+}
+.icon-design {
+  background-image: url(servicessprite.png);
+  background-position: 0px -234px;
+  width: 27px;
   height: 34px;
 }
 .icon-develop {
   background-image: url(servicessprite.png);
-  background-position: -42px -196px;
+  background-position: -44px -198px;
   width: 42px;
   height: 34px;
 }
 .icon-dotnet {
   background-image: url(servicessprite.png);
-  background-position: -172px -103px;
+  background-position: -174px -105px;
   width: 186px;
   height: 76px;
 }
 .icon-dotnetsmall {
   background-image: url(servicessprite.png);
-  background-position: -207px -179px;
+  background-position: -143px -234px;
   width: 35px;
   height: 14px;
 }
 .icon-dotnetsmallinactive {
   background-image: url(servicessprite.png);
-  background-position: -172px -179px;
+  background-position: -315px -198px;
   width: 35px;
   height: 14px;
 }
@@ -65,67 +71,55 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-frontendsmall {
   background-image: url(servicessprite.png);
-  background-position: -52px -230px;
+  background-position: -85px -234px;
   width: 27px;
   height: 31px;
 }
 .icon-frontendsmallinactive {
   background-image: url(servicessprite.png);
-  background-position: -79px -230px;
+  background-position: -114px -234px;
   width: 27px;
   height: 31px;
 }
 .icon-icon-suport {
   background-image: url(servicessprite.png);
-  background-position: 0px -230px;
+  background-position: -29px -234px;
   width: 26px;
   height: 34px;
 }
 .icon-improve {
   background-image: url(servicessprite.png);
-  background-position: -186px -196px;
+  background-position: -124px -198px;
   width: 34px;
   height: 34px;
 }
 .icon-optimize {
   background-image: url(servicessprite.png);
-  background-position: -220px -196px;
+  background-position: -160px -198px;
   width: 32px;
   height: 34px;
 }
 .icon-php {
   background-image: url(servicessprite.png);
-  background-position: -172px 0px;
+  background-position: -174px 0px;
   width: 196px;
   height: 103px;
 }
 .icon-phpsmall {
   background-image: url(servicessprite.png);
-  background-position: -283px -196px;
+  background-position: -227px -198px;
   width: 42px;
   height: 22px;
 }
 .icon-phpsmallinactive {
   background-image: url(servicessprite.png);
-  background-position: -325px -196px;
+  background-position: -271px -198px;
   width: 42px;
   height: 22px;
 }
-.icon-socialfacebook {
-  background-image: url(servicessprite.png);
-  background-position: -152px -196px;
-  width: 34px;
-  height: 34px;
-}
-.icon-sociallinkedin {
-  background-image: url(servicessprite.png);
-  background-position: -84px -196px;
-  width: 34px;
-  height: 34px;
-}
 .icon-support {
   background-image: url(servicessprite.png);
-  background-position: -26px -230px;
+  background-position: -57px -234px;
   width: 26px;
   height: 34px;
 }
@@ -134,82 +128,78 @@ Icon classes can be used entirely standalone. They are named after their origina
        (min-resolution: 192dpi) {
   .icon-analyze {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-arrowdown {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-clients {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-companies {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
+  }
+  .icon-design {
+    background-image: url(servicessprite-2x.png);
+    background-size: 370px 268px;
   }
   .icon-develop {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-dotnet {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-dotnetsmall {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-dotnetsmallinactive {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-frontend {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-frontendsmall {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-frontendsmallinactive {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-icon-suport {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-improve {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-optimize {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-php {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-phpsmall {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-phpsmallinactive {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
-  }
-  .icon-socialfacebook {
-    background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
-  }
-  .icon-sociallinkedin {
-    background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
   .icon-support {
     background-image: url(servicessprite-2x.png);
-    background-size: 368px 264px;
+    background-size: 370px 268px;
   }
 }
