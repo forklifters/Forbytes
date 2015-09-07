@@ -11,21 +11,24 @@ module.exports = function (grunt) {
                 retinaSrcFilter: 'img/app/common/forsprite/*-2x.png',
                 retinaDest: 'css/commonsprite-2x.png',
                 dest: 'css/commonsprite.png',
-                destCss: 'css/commonsprite.css'
+                destCss: 'css/commonsprite.css',
+                padding: 2
             },
             clients: {
                 src: 'img/app/clients/forsprite/*.png',
                 retinaSrcFilter: 'img/app/clients/forsprite/*-2x.png',
                 retinaDest: 'css/clientssprite-2x.png',
                 dest: 'css/clientssprite.png',
-                destCss: 'css/clientssprite.css'
+                destCss: 'css/clientssprite.css',
+                padding: 2
             },
             company: {
                 src: 'img/app/company/forsprite/*.png',
                 retinaSrcFilter: 'img/app/company/forsprite/*-2x.png',
                 retinaDest: 'css/companysprite-2x.png',
                 dest: 'css/companysprite.png',
-                destCss: 'css/companysprite.css'
+                destCss: 'css/companysprite.css',
+                padding: 2
             }
         }
     });

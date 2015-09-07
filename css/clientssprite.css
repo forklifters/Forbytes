@@ -11,13 +11,13 @@ Icon classes can be used entirely standalone. They are named after their origina
 */
 .icon-cdon {
   background-image: url(clientssprite.png);
-  background-position: -235px -65px;
+  background-position: -239px -97px;
   width: 206px;
   height: 30px;
 }
 .icon-heppo {
   background-image: url(clientssprite.png);
-  background-position: -110px -194px;
+  background-position: -112px -200px;
   width: 141px;
   height: 70px;
 }
@@ -29,25 +29,25 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-medbiblio {
   background-image: url(clientssprite.png);
-  background-position: 0px -160px;
+  background-position: 0px -164px;
   width: 110px;
   height: 110px;
 }
 .icon-newsperience {
   background-image: url(clientssprite.png);
-  background-position: -110px -160px;
+  background-position: -112px -164px;
   width: 301px;
   height: 34px;
 }
 .icon-stayhard {
   background-image: url(clientssprite.png);
-  background-position: -235px 0px;
+  background-position: -237px 0px;
   width: 296px;
   height: 65px;
 }
 .icon-trademax {
   background-image: url(clientssprite.png);
-  background-position: 0px -95px;
+  background-position: 0px -97px;
   width: 237px;
   height: 65px;
 }
@@ -56,30 +56,30 @@ Icon classes can be used entirely standalone. They are named after their origina
        (min-resolution: 192dpi) {
   .icon-cdon {
     background-image: url(clientssprite-2x.png);
-    background-size: 531px 270px;
+    background-size: 533px 274px;
   }
   .icon-heppo {
     background-image: url(clientssprite-2x.png);
-    background-size: 531px 270px;
+    background-size: 533px 274px;
   }
   .icon-lekmer {
     background-image: url(clientssprite-2x.png);
-    background-size: 531px 270px;
+    background-size: 533px 274px;
   }
   .icon-medbiblio {
     background-image: url(clientssprite-2x.png);
-    background-size: 531px 270px;
+    background-size: 533px 274px;
   }
   .icon-newsperience {
     background-image: url(clientssprite-2x.png);
-    background-size: 531px 270px;
+    background-size: 533px 274px;
   }
   .icon-stayhard {
     background-image: url(clientssprite-2x.png);
-    background-size: 531px 270px;
+    background-size: 533px 274px;
   }
   .icon-trademax {
     background-image: url(clientssprite-2x.png);
-    background-size: 531px 270px;
+    background-size: 533px 274px;
   }
 }

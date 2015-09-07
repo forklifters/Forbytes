@@ -4,6 +4,6 @@
 	"private": true,
 	"devDependencies": {
     "grunt": "0.4.5",
-    "grunt-spritesmith": "4.7.1"
+    "grunt-spritesmith": "5.0.0"
 	}
 }

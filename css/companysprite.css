@@ -11,7 +11,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 */
 .icon-learning {
   background-image: url(companysprite.png);
-  background-position: -47px 0px;
+  background-position: -49px 0px;
   width: 30px;
   height: 34px;
 }
@@ -23,7 +23,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-reliability {
   background-image: url(companysprite.png);
-  background-position: 0px -34px;
+  background-position: 0px -36px;
   width: 35px;
   height: 28px;
 }
@@ -32,14 +32,14 @@ Icon classes can be used entirely standalone. They are named after their origina
        (min-resolution: 192dpi) {
   .icon-learning {
     background-image: url(companysprite-2x.png);
-    background-size: 77px 62px;
+    background-size: 79px 64px;
   }
   .icon-partnership {
     background-image: url(companysprite-2x.png);
-    background-size: 77px 62px;
+    background-size: 79px 64px;
   }
   .icon-reliability {
     background-image: url(companysprite-2x.png);
-    background-size: 77px 62px;
+    background-size: 79px 64px;
   }
 }

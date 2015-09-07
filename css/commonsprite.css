@@ -11,7 +11,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 */
 .icon-quotes {
   background-image: url(commonsprite.png);
-  background-position: 0px -34px;
+  background-position: 0px -36px;
   width: 24px;
   height: 20px;
 }
@@ -23,7 +23,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-sociallinkedin {
   background-image: url(commonsprite.png);
-  background-position: -34px 0px;
+  background-position: -36px 0px;
   width: 34px;
   height: 34px;
 }
@@ -32,14 +32,14 @@ Icon classes can be used entirely standalone. They are named after their origina
        (min-resolution: 192dpi) {
   .icon-quotes {
     background-image: url(commonsprite-2x.png);
-    background-size: 68px 54px;
+    background-size: 70px 56px;
   }
   .icon-socialfacebook {
     background-image: url(commonsprite-2x.png);
-    background-size: 68px 54px;
+    background-size: 70px 56px;
   }
   .icon-sociallinkedin {
     background-image: url(commonsprite-2x.png);
-    background-size: 68px 54px;
+    background-size: 70px 56px;
   }
 }
