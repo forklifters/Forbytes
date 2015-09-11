@@ -9,6 +9,12 @@ Icon classes can be used entirely standalone. They are named after their origina
 <img class="icon-home" />
 ```
 */
+.icon-arrowdown {
+  background-image: url(commonsprite.png);
+  background-position: -26px -36px;
+  width: 19px;
+  height: 12px;
+}
 .icon-quotes {
   background-image: url(commonsprite.png);
   background-position: 0px -36px;
@@ -30,6 +36,10 @@ Icon classes can be used entirely standalone. They are named after their origina
 
 @media (-webkit-min-device-pixel-ratio: 2),
        (min-resolution: 192dpi) {
+  .icon-arrowdown {
+    background-image: url(commonsprite-2x.png);
+    background-size: 70px 56px;
+  }
   .icon-quotes {
     background-image: url(commonsprite-2x.png);
     background-size: 70px 56px;

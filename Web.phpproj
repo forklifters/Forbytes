@@ -15,6 +15,8 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="templates\ClientModel.php" />
+    <Compile Include="templates\client.php" />
     <Compile Include="css\animate.css" />
     <Compile Include="css\jquery.fullPage.css" />
     <Compile Include="css\main.less" />
@@ -45,8 +47,8 @@
     <Compile Include="functions.php" />
     <Compile Include="header.php" />
     <Compile Include="index.php" />
-    <Compile Include="page-clients.php" />
-    <Compile Include="page-company.php" />
+    <Compile Include="templates\clients.php" />
+    <Compile Include="templates\company.php" />
     <Compile Include="sidebar.php" />
     <Compile Include="style.css" />
   </ItemGroup>
@@ -68,12 +70,31 @@
     <Folder Include="js\app\" />
     <Folder Include="js\libs\" />
     <Folder Include="js" />
+    <Folder Include="templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="bundleconfig.json" />
     <Content Include="compilerconfig.json" />
+    <Content Include="compilerconfig.json.defaults">
+      <SubType>Content</SubType>
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </Content>
     <Content Include="css\bootstrap.css" />
+    <Content Include="css\client.css">
+      <SubType>Content</SubType>
+      <DependentUpon>css\client.less</DependentUpon>
+    </Content>
+    <Content Include="css\client.less" />
+    <Content Include="css\client.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>css\client.css</DependentUpon>
+    </Content>
+    <Content Include="css\clientbundle.css" />
+    <Content Include="css\clientbundle.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>css\clientbundle.css</DependentUpon>
+    </Content>
     <Content Include="css\clients.css" />
     <Content Include="css\clients.less" />
     <Content Include="css\clientsbundle.css" />
@@ -136,8 +157,8 @@
     <Content Include="img\app\company\team.jpg" />
     <Content Include="img\app\services\forsprite\analyze-2x.png" />
     <Content Include="img\app\services\forsprite\analyze.png" />
-    <Content Include="img\app\services\forsprite\arrowdown-2x.png" />
-    <Content Include="img\app\services\forsprite\arrowdown.png" />
+    <Content Include="img\app\common\forsprite\arrowdown-2x.png" />
+    <Content Include="img\app\common\forsprite\arrowdown.png" />
     <Content Include="img\app\services\forsprite\clients-2x.png" />
     <Content Include="img\app\services\forsprite\clients.png" />
     <Content Include="img\app\services\forsprite\companies-2x.png" />

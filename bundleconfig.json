@@ -40,6 +40,19 @@
     "sourceMaps": false
   },
   {
+    "outputFileName": "css/clientbundle.css",
+    "inputFiles": [
+      "css/clientssprite.css",
+      "css/commonsprite.css",
+      "css/client.css"
+    ],
+    "minify": {
+      "enabled": true
+    },
+    "includeInProject": true,
+    "sourceMaps": false
+  },
+  {
     "outputFileName": "css/companybundle.css",
     "inputFiles": [
       "css/companysprite.css",

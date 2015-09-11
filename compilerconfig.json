@@ -5,9 +5,7 @@
     "minify": {
       "enabled": false
     },
-    "includeInProject": true,
-    "sourceMap": true,
-    "options": {}
+    "sourceMap": true
   },
   {
     "outputFile": "css/services.css",
@@ -15,28 +13,24 @@
     "minify": {
       "enabled": false
     },
-    "includeInProject": true,
-    "sourceMap": true,
-    "options": {}
+    "sourceMap": true
   },
   {
     "outputFile": "css/company.css",
     "inputFile": "css/company.less",
     "minify": {
       "enabled": false
-    },
-    "includeInProject": true,
-    "sourceMap": false,
-    "options": {}
+    }
   },
   {
     "outputFile": "css/clients.css",
     "inputFile": "css/clients.less",
     "minify": {
       "enabled": false
-    },
-    "includeInProject": true,
-    "sourceMap": false,
-    "options": {}
+    }
+  },
+  {
+    "outputFile": "css/client.css",
+    "inputFile": "css/client.less"
   }
 ]

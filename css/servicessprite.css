@@ -15,21 +15,15 @@ Icon classes can be used entirely standalone. They are named after their origina
   width: 31px;
   height: 34px;
 }
-.icon-arrowdown {
-  background-image: url(servicessprite.png);
-  background-position: -174px -183px;
-  width: 19px;
-  height: 12px;
-}
 .icon-clients {
   background-image: url(servicessprite.png);
-  background-position: -88px -198px;
+  background-position: -124px -198px;
   width: 34px;
   height: 34px;
 }
 .icon-companies {
   background-image: url(servicessprite.png);
-  background-position: 0px -198px;
+  background-position: -44px -198px;
   width: 42px;
   height: 34px;
 }
@@ -41,7 +35,7 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-develop {
   background-image: url(servicessprite.png);
-  background-position: -44px -198px;
+  background-position: 0px -198px;
   width: 42px;
   height: 34px;
 }
@@ -71,25 +65,25 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-frontendsmall {
   background-image: url(servicessprite.png);
-  background-position: -85px -234px;
+  background-position: -114px -234px;
   width: 27px;
   height: 31px;
 }
 .icon-frontendsmallinactive {
   background-image: url(servicessprite.png);
-  background-position: -114px -234px;
+  background-position: -85px -234px;
   width: 27px;
   height: 31px;
 }
 .icon-icon-suport {
   background-image: url(servicessprite.png);
-  background-position: -29px -234px;
+  background-position: -57px -234px;
   width: 26px;
   height: 34px;
 }
 .icon-improve {
   background-image: url(servicessprite.png);
-  background-position: -124px -198px;
+  background-position: -88px -198px;
   width: 34px;
   height: 34px;
 }
@@ -107,19 +101,19 @@ Icon classes can be used entirely standalone. They are named after their origina
 }
 .icon-phpsmall {
   background-image: url(servicessprite.png);
-  background-position: -227px -198px;
+  background-position: -271px -198px;
   width: 42px;
   height: 22px;
 }
 .icon-phpsmallinactive {
   background-image: url(servicessprite.png);
-  background-position: -271px -198px;
+  background-position: -227px -198px;
   width: 42px;
   height: 22px;
 }
 .icon-support {
   background-image: url(servicessprite.png);
-  background-position: -57px -234px;
+  background-position: -29px -234px;
   width: 26px;
   height: 34px;
 }
@@ -127,10 +121,6 @@ Icon classes can be used entirely standalone. They are named after their origina
 @media (-webkit-min-device-pixel-ratio: 2),
        (min-resolution: 192dpi) {
   .icon-analyze {
-    background-image: url(servicessprite-2x.png);
-    background-size: 370px 268px;
-  }
-  .icon-arrowdown {
     background-image: url(servicessprite-2x.png);
     background-size: 370px 268px;
   }
