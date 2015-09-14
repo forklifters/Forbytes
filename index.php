@@ -206,33 +206,37 @@
                                                 <li data-item="dot-net" class="dot-net-item"><span></span></li>
                                                 <li data-item="php" class="php-item"><span></span></li>
                                                 <li data-item="front-end" class="front-end-item"><span></span></li>
+                                                <li data-item="datastorage" class="datastorage-item"><span></span></li>
                                             </ul>
                                         </nav>
-                                        <span class="icon-dotnet dot-net-img"></span><span class="icon-php php-img"></span><span class="icon-frontend front-end-img"></span>
+                                        <span class="icon-dotnet dot-net-img"></span><span class="icon-php php-img"></span><span class="icon-frontend front-end-img"></span><span class="icon-datastorage datastorage-img"></span>
                                     </div>
                                     <div class="col-md-6 right-part">
                                         <div class="dot-net-info">
                                             <h2>.Net</h2>
                                             <div class="clearfix">
-                                                <ul>
-                                                    <li>Microsoft .NET (C#) 2.0 - 4.5</li>
-                                                    <li>Mono Framework</li>
+                                                <ul class="tech-list">
+                                                    <li>C#, VB.NET, F#</li>
+                                                    <li>Entity Framework, ADO.NET</li>
                                                     <li>ASP.NET AJAX / WebForms</li>
                                                     <li>ASP.NET MVC</li>
                                                     <li>ASP.NET Web API</li>
-                                                    <li>ADO.NET</li>
-                                                    <li>WinRT (Window 8), XAML</li>
-                                                    <li>MS SQL Server Services</li>
-                                                    <li>MS EntityFramework</li>
-                                                    <li>NHibernate ORM</li>
-                                                </ul>
-                                                <ul>
                                                     <li>Windows Azure Services</li>
-                                                    <li>WCF (SOAP and REST web-services)</li>
-                                                    <li>Windows Identity Foundation</li>
-                                                    <li>ServiceStack</li>
-                                                    <li>Orchard CMS</li>
-                                                    <li>Sitefinity CMS</li>
+                                                    <li>WCF</li>
+                                                </ul>
+                                                <ul class="tech-list">
+                                                    <li>Ecommerce platforms:
+                                                        <ul>
+                                                            <li>Askas, SelloShop, Jetshop</li>
+                                                            <li>Kodmyran, Nordisk e-handel, Vendre</li>
+                                                            <li>E-37, Textalk Webshop, EpiServer</li>
+                                                            <li>Wordpress, Jomla, Prestashop</li>
+                                                            <li>Talex, Mycashflow, Sitedirect</li>
+                                                            <li>Litium studio, Starweb, Shoppiq</li>
+                                                            <li>Pangora, C4media</li>
+                                                            <li>Magento, Wikinggruppen, Viskan</li>
+                                                        </ul>
+                                                    </li>
                                                     <li>Telerik components, Kendo UI</li>
                                                 </ul>
                                             </div>
@@ -240,43 +244,78 @@
                                         <div class="php-info">
                                             <h2>Php</h2>
                                             <div class="clearfix">
-                                                <ul>
-                                                    <li>Zend Framework</li>
-                                                    <li>Symfony, Yii, Kohana, CakePHP</li>
-                                                    <li>CodeIgnitor, Laravel, Akelos</li>
-                                                    <li>WordPress</li>
-                                                    <li>CMS: Drupal, Joomla!, TYPO3</li>
-                                                    <li>CMS: Xaraya, Centurion, ExpressionEngine</li>
-                                                    <li>E-Commerce: Magento, Zen Cart</li>
-                                                    <li>E-Commerce: Drupal Commerce</li>
-                                                    <li>E-Commerce: OpenCart, PrestaShop</li>
-                                                    <li>NHibernaPHPUnitte ORM</li>
+                                                <ul class="tech-list">
+                                                    <li>Frameworks: 
+                                                        <ul>
+                                                            <li>Zend Framework, Laravel</li>
+                                                            <li>PHPixie, Silex, Yii</li>
+                                                            <li>Lumen, Codeigniter</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Ecommerce Platforms:
+                                                        <ul>
+                                                            <li>Magento</li>
+                                                            <li>OpenCart</li>
+                                                            <li>PrestaShop</li>
+                                                            <li>Virtuemart</li>
+                                                        </ul>
+                                                    </li>
+                                                     
+                                                    
+                                                   
+                                                </ul>
+                                                <ul class="tech-list">
+                                                 
+                                                    <li>CMS:
+                                                        <ul>
+                                                            <li>Wordpress, Joomla</li>
+                                                            <li>Image CMS, October CMS</li>
+                                                            <li>TYPO3, Pimcore</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Related Technologies: 
+                                                        <ul>
+                                                            <li>Composer, Apache, Nginx</li>
+                                                            <li>Redis, Memcached, Beanstalkd</li>
+                                                        </ul>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="front-end-info">
                                             <h2>Front end</h2>
                                             <div class="clearfix">
-                                                <ul>
-                                                    <li>HTML 4, HTML 5</li>
-                                                    <li>CSS 2, CSS 3</li>
-                                                    <li>LESS, SASS</li>
-                                                    <li>XML, XSL, XSLT</li>
-                                                    <li>XPath</li>
-                                                    <li>XAML</li>
-                                                    <li>Twitter Bootstrap</li>
-                                                    <li>QUnit, Jasmine, Mocha</li>
+                                                <ul class="tech-list">
+                                                    <li>HTML 5, CSS 3</li>
+                                                    <li>Less, Sass, Compass</li>
+                                                    <li>Twitter Bootstrap, Foundation</li>
+                                                    <li>jQuery, jQuery UI, jQuery Mobile</li>
+                                                    <li>Require, Knockout, Underscore, Amplify</li>
+                                                    <li>React (Flux)</li>
+                                                    <li>Gulp, Bower</li>
+                                                    <li>Durandal, Backbone, Angular, Highcharts</li>
                                                 </ul>
-                                                <ul>
-                                                    <li>JavaScript</li>
-                                                    <li>jQuery, jQuery UI</li>
-                                                    <li>Single Page Application</li>
-                                                    <li>Durandal</li>
-                                                    <li>ExtJS, KendoUI, MooTools</li>
-                                                    <li>SAngularJS</li>
-                                                    <li>Backbone.js</li>
-                                                    <li>Knockout.js</li>
-                                                    <li>Processing.js, Raphaël.js</li>
+                                            </div>
+                                        </div>
+                                         <div class="datastorage-info">
+                                            <h2>Data storages</h2>
+                                            <div class="clearfix">
+                                                <ul class="tech-list">
+                                                    <li>MS SQL Server</li>
+                                                    <li>MySQL</li>
+                                                    <li>Raven DB</li>
+                                                    <li>Oracle</li>
+                                                    <li>SQL Lite</li>
+                                                    <li>Mongo DB</li>
+                                                    <li>MS Access</li>
+                                                    <li>Postgre SQL</li>
+                                                    
+                                                </ul>
+                                                <ul class="tech-list">
+                                                    <li>Elastic Search</li>
+                                                    <li>Redis</li>
+                                                    <li>Rabbit MQ</li>
+                                                    <li>Counchbase (Memebase)</li>
                                                 </ul>
                                             </div>
                                         </div>

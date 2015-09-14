@@ -163,6 +163,12 @@
     <Content Include="img\app\services\forsprite\clients.png" />
     <Content Include="img\app\services\forsprite\companies-2x.png" />
     <Content Include="img\app\services\forsprite\companies.png" />
+    <Content Include="img\app\services\forsprite\datastorage-2x.png" />
+    <Content Include="img\app\services\forsprite\datastoragesmall-2x.png" />
+    <Content Include="img\app\services\forsprite\datastoragesmallinactive-2x.png" />
+    <Content Include="img\app\services\forsprite\datastoragesmallinactive.png" />
+    <Content Include="img\app\services\forsprite\datastoragesmall.png" />
+    <Content Include="img\app\services\forsprite\datastorage.png" />
     <Content Include="img\app\services\forsprite\develop-2x.png" />
     <Content Include="img\app\services\forsprite\develop.png" />
     <Content Include="img\app\services\forsprite\dotnet-2x.png" />

@@ -22,6 +22,7 @@ $clientModel = new ClientModel();
 <body class="client">
     <?php get_header(); ?>
     <main>
+        <?php if ($clientModel->general->Enabled()): ?>
         <section class="general-info">
             <div class="content">
                 <div class="container">
@@ -45,8 +46,9 @@ $clientModel = new ClientModel();
                 </div>
             </div>
         </section>
-        <?php if ($clientModel->technologies->isSomeDataSet()): ?>
-         <section class="technologies dark">
+        <?php endif ?>
+        <?php if ($clientModel->technologies->Enabled()): ?>
+        <section class="technologies dark">
             <div class="content">
                 <div class="container">
                     <div class="row">
@@ -92,13 +94,13 @@ $clientModel = new ClientModel();
             </div>
         </section>
         <?php endif ?>
-         <?php if ($clientModel->testimonial->isAllDataSet()): ?>
-         <section class="quote <?php echo !$clientModel->testimonial->isAllDataSet()? 'dark': ''  ?>">
+        <?php if ($clientModel->testimonial->Enabled()): ?>
+        <section class="quote <?php echo !$clientModel->technologies->Enabled()? 'dark': ''  ?>">
             <div class="content">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                             <blockquote>
+                                <blockquote>
                                 <div class="icon quotes">
                                     <span class="icon-quotes"></span>
                                 </div>
@@ -110,7 +112,7 @@ $clientModel = new ClientModel();
                 </div>
             </div>
         </section>
-         <?php endif ?>
+        <?php endif ?>
     </main>
     <?php get_footer(); ?>
    <script src="<?php echo get_template_directory_uri(); ?>/js/libs/require.js"></script>

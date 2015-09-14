@@ -35,9 +35,9 @@ Template Name: Clients
                             <?php 
                                 $args = array(
             	                        'post_parent' =>  $post->ID,
-	                                    'post_type'   => 'any', 
+	                                    'post_type'   => 'page', 
 	                                    'numberposts' => -1,
-	                                    'post_status' => 'any',
+	                                    'post_status' => 'publish',
                                         'orderby' => 'menu_order',
                                         'order' => 'ASC'
                                 );
