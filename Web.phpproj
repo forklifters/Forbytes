@@ -51,6 +51,9 @@
     <Compile Include="templates\company.php" />
     <Compile Include="sidebar.php" />
     <Compile Include="style.css" />
+    <Compile Include="templates\ServicesModel.php" />
+    <Compile Include="templates\interfaces.php" />
+    <Compile Include="templates\services.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css" />

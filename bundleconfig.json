@@ -7,12 +7,7 @@
       "css/bootstrap.css",
       "css/main.css",
       "css/commonsprite.css"
-    ],
-    "minify": {
-      "enabled": true
-    },
-    "includeInProject": true,
-    "sourceMaps": false
+    ]
   },
   {
     "outputFileName": "css/servicesbundle.css",
@@ -20,24 +15,14 @@
       "css/servicessprite.css",
       "css/jquery.fullPage.css",
       "css/services.css"
-    ],
-    "minify": {
-      "enabled": true
-    },
-    "includeInProject": true,
-    "sourceMaps": false
+    ]
   },
   {
     "outputFileName": "css/clientsbundle.css",
     "inputFiles": [
       "css/clientssprite.css",
       "css/clients.css"
-    ],
-    "minify": {
-      "enabled": true
-    },
-    "includeInProject": true,
-    "sourceMaps": false
+    ]
   },
   {
     "outputFileName": "css/clientbundle.css",
@@ -45,23 +30,19 @@
       "css/clientssprite.css",
       "css/commonsprite.css",
       "css/client.css"
-    ],
-    "minify": {
-      "enabled": true
-    },
-    "includeInProject": true,
-    "sourceMaps": false
+    ]
   },
   {
     "outputFileName": "css/companybundle.css",
     "inputFiles": [
       "css/companysprite.css",
       "css/company.css"
-    ],
-    "minify": {
-      "enabled": true
-    },
-    "includeInProject": true,
-    "sourceMaps": false
+    ]
+  },
+  {
+    "outputFileName": "js/app/technologiesweuse.js",
+    "inputFiles": [
+      "js/app/technologiesweuse.js"
+    ]
   }
 ]

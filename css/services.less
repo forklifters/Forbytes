@@ -368,8 +368,11 @@
 				}
 
 				.left-part{
-						> span{
+						.tech-icons{
 							display: none;
+                            span{
+                                display: none;
+                            }
 						}
 
 						ul{
@@ -725,20 +728,27 @@
 
 					.left-part{
 						background-color: transparent;
-						> span {
-							margin: auto;
-  							position: absolute;
-  							top: 0;
-  							left: 0; 
-  							bottom: 0; 
-  							right: 0;
-  							display: inline-block;
-						}
+                        position: relative;
+                        .tech-icons{
+                            display: block;
+
+                             span {
+							    margin: auto;
+  							    position: absolute;
+  							    top: 0;
+  							    left: 0; 
+  							    bottom: 0; 
+  							    right: 0;
+  							    display: inline-block;
+						    }
+                        }
 
 						nav{
-							position: relative;
-							top: 50%;
-							transform: translateY(-50%);
+							position: absolute;
+							top: 0;
+							bottom: 0;
+                            margin: auto;
+                            height: 268px;
 
 							ul{
 								 li{

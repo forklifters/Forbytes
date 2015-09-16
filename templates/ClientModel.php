@@ -1,4 +1,5 @@
 <?php 
+require('interfaces.php');
 class ClientModel 
 {
      public $general;
@@ -13,23 +14,6 @@ class ClientModel
      }   
 }
 
-interface iSection{
-    public function Enabled();
-}
-
-
-abstract class Section implements iSection{
-    protected function getFieldValue($fieldID){
-        return get_field_object($fieldID, $page->ID)['value'];
-    }
-
-    protected abstract function GetEnabledFieldID();
-
-    public function Enabled(){
-        return $this->getFieldValue($this->GetEnabledFieldID());
-    }
-}
-
 class General extends Section{
     public $companyFullDescription;
     public $companyShortDescription;
@@ -40,7 +24,6 @@ class General extends Section{
        $this->companyFullDescription = parent::getFieldValue('company_full_description'); 
        $this->companyShortDescription = parent::getFieldValue('company_short_description'); 
        $this->projectDescription = parent::getFieldValue('project_description'); 
-       $this->enabled = parent::getFieldValue('general_section_enabled'); 
     }   
 
     protected function GetEnabledFieldID(){

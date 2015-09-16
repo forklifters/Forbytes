@@ -4,8 +4,8 @@
         currentTechItem = itemKey;        var menuItemSelector = '.' + itemKey + '-item';        nav.find('li:not(' + menuItemSelector + ')').removeClass('active');        nav.find(menuItemSelector).addClass('active');        var techInfoSelector = '.' + itemKey + '-info';        var techImgSelector = '.' + itemKey + '-img';        var leftPart = techArticle.find('.left-part');        var rightPart = techArticle.find('.right-part');        rightPart.off();        rightPart.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             techArticle.removeClass();            techArticle.addClass('clearfix ' + itemKey);            rightPart.find('> div:not(' + techInfoSelector + ')').hide();            rightPart.find(techInfoSelector).removeClass('fadeOutRight').show().addClass('animated fadeIn');
         });        leftPart.off();        leftPart.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-            leftPart.find('> span:not(' + techImgSelector + ')').hide();            leftPart.find(techImgSelector).removeClass('fadeOut').show().addClass('animated fadeIn');
-        });        rightPart.find('> div:not(' + techInfoSelector + ')').addClass('animated fadeOutRight');        leftPart.find('> span:not(' + techImgSelector + ')').addClass('animated fadeOut');
+            leftPart.find('.tech-icons span:not(' + techImgSelector + ')').hide();            leftPart.find(techImgSelector).removeClass('fadeOut').show().addClass('animated fadeIn');
+        });        rightPart.find('> div:not(' + techInfoSelector + ')').addClass('animated fadeOutRight');        leftPart.find('.tech-icons span:not(' + techImgSelector + ')').addClass('animated fadeOut');
     }
     var init = function () {
         nav.find('li').on('click', function () {
