@@ -189,7 +189,7 @@ $servicesModel = new ServicesModel();
             </div>
         </section>
         <?php endif ?>
-        <?php if ($servicesModel->technologiesWeUse->Enabled()): ?>
+        <?php if ($servicesModel->letsWorkTogether->Enabled()): ?>
         <section class="contact-us dark">
             <div class="content">
                 <div class="container">
