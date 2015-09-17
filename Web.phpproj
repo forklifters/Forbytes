@@ -15,6 +15,7 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="templates\BlockArticle.php" />
     <Compile Include="templates\ClientModel.php" />
     <Compile Include="templates\client.php" />
     <Compile Include="css\animate.css" />
@@ -51,8 +52,10 @@
     <Compile Include="templates\company.php" />
     <Compile Include="sidebar.php" />
     <Compile Include="style.css" />
+    <Compile Include="templates\CompanyModel.php" />
+    <Compile Include="templates\Quote.php" />
     <Compile Include="templates\ServicesModel.php" />
-    <Compile Include="templates\interfaces.php" />
+    <Compile Include="templates\Interfaces.php" />
     <Compile Include="templates\services.php" />
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,5 @@
 <?php 
-require('interfaces.php');
+require('Interfaces.php');
 class ClientModel 
 {
      public $general;
@@ -21,9 +21,9 @@ class General extends Section{
 
     public function __construct()
     {
-       $this->companyFullDescription = parent::getFieldValue('company_full_description'); 
-       $this->companyShortDescription = parent::getFieldValue('company_short_description'); 
-       $this->projectDescription = parent::getFieldValue('project_description'); 
+       $this->companyFullDescription = $this->getFieldValue('company_full_description'); 
+       $this->companyShortDescription = $this->getFieldValue('company_short_description'); 
+       $this->projectDescription = $this->getFieldValue('project_description'); 
     }   
 
     protected function GetEnabledFieldID(){
@@ -38,8 +38,8 @@ class Technologies extends Section{
 
     public function __construct()
     {
-       $this->backendTechnologies = parent::getFieldValue('backend_technologies'); 
-       $this->frontEndTechnologies = parent::getFieldValue('frontend_technologies'); 
+       $this->backendTechnologies = $this->getFieldValue('backend_technologies'); 
+       $this->frontEndTechnologies = $this->getFieldValue('frontend_technologies'); 
     }   
 
     private function buildTechnologiesList($technologiesValue)
@@ -75,8 +75,8 @@ class Testimonial extends Section{
 
     public function __construct()
     {
-       $this->text = parent::getFieldValue('testimonial_text'); 
-       $this->author = parent::getFieldValue('testimonial_author'); 
+       $this->text = $this->getFieldValue('testimonial_text'); 
+       $this->author = $this->getFieldValue('testimonial_author'); 
     }   
 
     protected function GetEnabledFieldID(){

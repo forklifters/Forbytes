@@ -115,11 +115,5 @@ $clientModel = new ClientModel();
         <?php endif ?>
     </main>
     <?php get_footer(); ?>
-   <script src="<?php echo get_template_directory_uri(); ?>/js/libs/require.js"></script>
-    <script>
-        require(['<?php echo get_template_directory_uri(); ?>/js/requireConfig.js'], function () {
-           
-        });
-    </script>
 </body>
 </html>

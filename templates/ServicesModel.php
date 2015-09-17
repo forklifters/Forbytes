@@ -1,5 +1,5 @@
 <?php
-    require('interfaces.php');
+    require('Interfaces.php');
     class ServicesModel 
     {
          public $general;
@@ -25,9 +25,9 @@
 
         public function __construct()
         {
-           $this->title = parent::getFieldValue('general_title'); 
-           $this->description = parent::getFieldValue('general_description'); 
-           $this->buttonText = parent::getFieldValue('general_button_text'); 
+           $this->title = $this->getFieldValue('general_title'); 
+           $this->description = $this->getFieldValue('general_description'); 
+           $this->buttonText = $this->getFieldValue('general_button_text'); 
         }   
 
         protected function GetEnabledFieldID(){
@@ -45,8 +45,8 @@
            for ($i = 1; $i <= 5; $i++) {
                 $keyTitle = 'block_'.$i.'_title';
                 $keyDescription = 'block_'.$i.'_description';
-                $blockTitle = parent::getFieldValue($keyTitle);
-                $blockDescription = parent::getFieldValue($keyDescription); 
+                $blockTitle = $this->getFieldValue($keyTitle);
+                $blockDescription = $this->getFieldValue($keyDescription); 
                 $this->articles[$blockTitle] = $blockDescription;
            }
         }  
@@ -65,11 +65,11 @@
 
         public function __construct()
         {
-           $this->title = parent::getFieldValue('how_we_work_title'); 
-           $this->dedicatedTeamTitle = parent::getFieldValue('dedicated_team_title'); 
-           $this->dedicatedTeamDescription = parent::getFieldValue('dedicated_team_description'); 
-           $this->customDevelopmentTeamTitle = parent::getFieldValue('custom_development_title'); 
-           $this->customDevelopmentTeamDescription = parent::getFieldValue('custom_development_description'); 
+           $this->title = $this->getFieldValue('how_we_work_title'); 
+           $this->dedicatedTeamTitle = $this->getFieldValue('dedicated_team_title'); 
+           $this->dedicatedTeamDescription = $this->getFieldValue('dedicated_team_description'); 
+           $this->customDevelopmentTeamTitle = $this->getFieldValue('custom_development_title'); 
+           $this->customDevelopmentTeamDescription = $this->getFieldValue('custom_development_description'); 
         }  
 
         protected function GetEnabledFieldID(){
@@ -90,15 +90,15 @@
 
         public function __construct()
         {
-           $this->title = parent::getFieldValue('technologies_we_use_title'); 
-           $this->netTitle = parent::getFieldValue('net_title'); 
-           $this->netTechnologies = parent::getFieldValue('net_technologies'); 
-           $this->phpTitle = parent::getFieldValue('php_title'); 
-           $this->phpTechnologies = parent::getFieldValue('php_technologies'); 
-           $this->frontEndTitle = parent::getFieldValue('front_end_title'); 
-           $this->frontEndTechnologies = parent::getFieldValue('front_end_technologies'); 
-           $this->dataStorageTitle = parent::getFieldValue('data_storages_title'); 
-           $this->dataStorageTechnologies = parent::getFieldValue('data_storages_technologies'); 
+           $this->title = $this->getFieldValue('technologies_we_use_title'); 
+           $this->netTitle = $this->getFieldValue('net_title'); 
+           $this->netTechnologies = $this->getFieldValue('net_technologies'); 
+           $this->phpTitle = $this->getFieldValue('php_title'); 
+           $this->phpTechnologies = $this->getFieldValue('php_technologies'); 
+           $this->frontEndTitle = $this->getFieldValue('front_end_title'); 
+           $this->frontEndTechnologies = $this->getFieldValue('front_end_technologies'); 
+           $this->dataStorageTitle = $this->getFieldValue('data_storages_title'); 
+           $this->dataStorageTechnologies = $this->getFieldValue('data_storages_technologies'); 
         }  
 
         protected function GetEnabledFieldID(){
@@ -115,11 +115,11 @@
 
         public function __construct()
         {
-           $this->title = parent::getFieldValue('lets_work_together_title'); 
-           $this->description = parent::getFieldValue('lets_work_together_description'); 
-           $this->buttonText = parent::getFieldValue('lets_work_together_button_text'); 
-           $this->errorText = parent::getFieldValue('lets_work_together_error'); 
-           $this->successText = parent::getFieldValue('lets_work_together_success'); 
+           $this->title = $this->getFieldValue('lets_work_together_title'); 
+           $this->description = $this->getFieldValue('lets_work_together_description'); 
+           $this->buttonText = $this->getFieldValue('lets_work_together_button_text'); 
+           $this->errorText = $this->getFieldValue('lets_work_together_error'); 
+           $this->successText = $this->getFieldValue('lets_work_together_success'); 
         }  
 
         protected function GetEnabledFieldID(){
