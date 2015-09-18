@@ -1,6 +1,7 @@
 <?php
    require('Interfaces.php');
-    require('Quote.php');
+    require('controls/Quote.php');
+    require('controls/BlockArticle.php');
     class CompanyModel 
     {
          public $ourTeam;

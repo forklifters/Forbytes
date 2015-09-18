@@ -15,7 +15,7 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="templates\BlockArticle.php" />
+    <Compile Include="templates\controls\BlockArticle.php" />
     <Compile Include="templates\ClientModel.php" />
     <Compile Include="templates\client.php" />
     <Compile Include="css\animate.css" />
@@ -49,11 +49,13 @@
     <Compile Include="header.php" />
     <Compile Include="index.php" />
     <Compile Include="templates\clients.php" />
+    <Compile Include="templates\ClientsModel.php" />
     <Compile Include="templates\company.php" />
     <Compile Include="sidebar.php" />
     <Compile Include="style.css" />
     <Compile Include="templates\CompanyModel.php" />
-    <Compile Include="templates\Quote.php" />
+    <Compile Include="templates\controls\ClientArticle.php" />
+    <Compile Include="templates\controls\Quote.php" />
     <Compile Include="templates\ServicesModel.php" />
     <Compile Include="templates\Interfaces.php" />
     <Compile Include="templates\services.php" />
@@ -77,6 +79,7 @@
     <Folder Include="js\libs\" />
     <Folder Include="js" />
     <Folder Include="templates\" />
+    <Folder Include="templates\controls\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />

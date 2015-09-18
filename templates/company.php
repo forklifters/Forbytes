@@ -3,7 +3,7 @@
 Template Name: Company
 */
 require('CompanyModel.php');
-require('BlockArticle.php');
+
 $companyModel = new CompanyModel();
 ?>
 <!doctype html>

@@ -17,6 +17,10 @@ abstract class Section implements iSection{
         return get_field_object($fieldID, $page->ID)['value'];
     }
 
+    protected function getFieldValueByPage($fieldID, $pageID){
+        return get_field_object($fieldID, $pageID)['value'];
+    }
+
     protected abstract function GetEnabledFieldID();
 
     public function Enabled(){
