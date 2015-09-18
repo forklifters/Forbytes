@@ -15,6 +15,7 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="templates\careers.php" />
     <Compile Include="templates\controls\BlockArticle.php" />
     <Compile Include="templates\ClientModel.php" />
     <Compile Include="templates\client.php" />
@@ -90,6 +91,14 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
     <Content Include="css\bootstrap.css" />
+    <Content Include="css\careers.css" />
+    <Content Include="css\careers.less" />
+    <Content Include="css\careers.min.css">
+      <SubType>Content</SubType>
+      <DependentUpon>css\careers.css</DependentUpon>
+    </Content>
+    <Content Include="css\careersbundle.css" />
+    <Content Include="css\careersbundle.min.css" />
     <Content Include="css\client.css">
       <SubType>Content</SubType>
       <DependentUpon>css\client.less</DependentUpon>

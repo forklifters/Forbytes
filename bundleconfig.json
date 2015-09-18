@@ -40,6 +40,12 @@
     ]
   },
   {
+    "outputFileName": "css/careersbundle.css",
+    "inputFiles": [
+      "css/careers.css"
+    ]
+  },
+  {
     "outputFileName": "js/app/technologiesweuse.js",
     "inputFiles": [
       "js/app/technologiesweuse.js"

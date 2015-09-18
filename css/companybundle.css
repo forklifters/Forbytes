@@ -64,17 +64,6 @@ Icon classes can be used entirely standalone. They are named after their origina
   -o-background-size: cover;
   background-size: cover;
 }
-.company section.our-mission {
-  display: none;
-}
-.company section.our-mission .content h1 {
-  margin-bottom: 0;
-}
-.company section.our-mission .content h2,
-.company section.our-mission .content p {
-  text-transform: none;
-  text-align: center;
-}
 .company section.company-principles article {
   text-align: center;
   margin-bottom: 4em;

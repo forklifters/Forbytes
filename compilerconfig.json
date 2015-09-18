@@ -32,5 +32,9 @@
   {
     "outputFile": "css/client.css",
     "inputFile": "css/client.less"
+  },
+  {
+    "outputFile": "css/careers.css",
+    "inputFile": "css/careers.less"
   }
 ]
