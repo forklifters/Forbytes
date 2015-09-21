@@ -16,6 +16,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="templates\careers.php" />
+    <Compile Include="templates\CareersModel.php" />
     <Compile Include="templates\controls\BlockArticle.php" />
     <Compile Include="templates\ClientModel.php" />
     <Compile Include="templates\client.php" />
@@ -55,11 +56,13 @@
     <Compile Include="sidebar.php" />
     <Compile Include="style.css" />
     <Compile Include="templates\CompanyModel.php" />
+    <Compile Include="templates\controls\VacancieArticle.php" />
     <Compile Include="templates\controls\ClientArticle.php" />
     <Compile Include="templates\controls\Quote.php" />
     <Compile Include="templates\ServicesModel.php" />
     <Compile Include="templates\Interfaces.php" />
     <Compile Include="templates\services.php" />
+    <Compile Include="templates\vacancie.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css" />
@@ -148,6 +151,7 @@
       <SubType>Content</SubType>
       <DependentUpon>css\servicesbundle.css</DependentUpon>
     </Content>
+    <Content Include="css\vacancie.less" />
     <Content Include="favicon.ico" />
     <Content Include="gruntfile.js" />
     <Content Include="img\app\clients\forsprite\cdon-2x.png" />

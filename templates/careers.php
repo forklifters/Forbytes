@@ -2,6 +2,9 @@
 /*
 Template Name: Careers
 */
+
+require('CareersModel.php');
+$careersModel = new CareersModel($post->ID);
 ?>
 <!doctype html>
 <html class="no-js" lang="">
@@ -16,84 +19,52 @@ Template Name: Careers
     <?php get_template_part( 'custom', 'head' ); ?> 
     <?php wp_head(); ?>
 </head>
-<body class="career">
+<body class="careers">
     <?php get_header(); ?>
     <main>
+    <?php if ($careersModel->vacancies->Enabled()): ?>
         <section class="vacancies">
             <div class="content">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h1 class="title">Vacancies</h1>
+                            <h1 class="title"><?php echo $careersModel->vacancies->title ?></h1>
                         </div>
                     </div>
                     <div class="row">
+                        <?php foreach($careersModel->vacancies->vacanciesList as $vacancie) { ?>
                         <div class="col-xs-12">
-                            <article>
-                                <h2 class="title">Senior level: Experienced low-level backend developer</h1>
-                                <div>
-                                    <ul>
-                                        <li>Expert low-level PHP knowledge.</li>
-                                        <li>Highly OOP orientated and well versed in its latest design patterns.</li>
-                                        <li>Senior MySQL knowledge, knows how to optimize databases.</li>
-                                        <li>Experience in other OOP language such as C#, Objective-C or similar C styled languages ( C style not required ).</li>
-                                    </ul>
-
-                                    <div>Highly preferable, but not required:</div>
-                                    <ul>
-                                        <li>Magento experience.</li>
-                                        <li>Experience in other e-commerce platforms/development.</li>
-                                    </ul>
-                                    <div class="accent">A good understanding of English and the ability to converse easily with others</div>
-                                </div>
-                            </article>
                              <article>
-                                <h2 class="title">Middle to senior level, Magento specialist backend</h1>
+                                <h2 class="title"><?php echo $vacancie->title ?></h2>
                                 <div>
-                                    <ul>
-                                        <li>Expert <span class="accent">Magento development knowledge</span>.</li>
-                                    </ul>
-                                    <div>Key areas:</div>
-                                    <ul>
-                                        <li>Core concepts and modules.</li>
-                                        <li>Best practices.</li>
-                                        <li>Database structure.</li>
-                                        <li>Module design.</li>
-                                        <li>Configurations.</li>
-                                        <li>Template system.</li>
-                                    </ul>
-                                    <div>Highly preferable, but not required:</div>
-                                    <ul>
-                                        <li>Experience in other e-commerce platforms/development.</li>
-                                        <li>Experienced at using magento admin.</li>
-                                    </ul>
-                                    <div class="accent">A good understanding of English and the ability to converse easily with others</div>
+                                    <?php echo $vacancie->description ?>
                                 </div>
-                            </article>
-                            <article>
-                                <h2 class="title">Middle level all-round magento knowledge with a back-end focus</h1>
-                                <div>
-                                    <div>Your main focus will be to maintain the <span class="accent">eCommerce solution</span> and <span class="accent">implement improvements</span> on current functionality</div>
-                                    <ul>
-                                        <li>Mid-level Magento development knowledge.</li>
-                                        <li>Experienced administrating Magento.</li>
-                                        <li>Experienced setting up price rules in Magento.</li>
-                                        <li>Experienced with Magento configuration files.</li>
-                                    </ul>
-                                    <div>Preferable, but not required:</div>
-                                    <ul>
-                                        <li>Experience in other e-commerce platforms.</li>
-                                        <li>Experienced with Magento templating.</li>
-                                        <li>Frontend knowledge.</li>
-                                    </ul>
-                                    <div class="accent">A good understanding of English and the ability to converse easily with others</div>
-                                </div>
-                            </article>
+                             </article>
                         </div>
+                        <?php } ?>
                     </div>
                 </div>  
             </div>
         </section>
+        <?php endif ?>
+        <?php if ($careersModel->contactUs->Enabled()): ?>
+        <section class="contact-us dark">
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1 class="title"><?php echo $careersModel->contactUs->title ?></span></h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p><?php echo $careersModel->contactUs->description ?></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <?php endif ?>
     </main>
     <?php get_footer(); ?>
 </body>
